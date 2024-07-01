@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
 import './CodeEditor.css';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -30,3 +29,4 @@ const CodeEditor = () => {
 };
 
 export default CodeEditor;
+
